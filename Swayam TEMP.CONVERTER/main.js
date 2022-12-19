@@ -1,12 +1,12 @@
-function ConTemperature(){
+function TEMPCON(){
     let val = document.getElementById("input_value");
     let result = document.getElementById("result");
     let input = document.getElementById("input");
     let output = document.getElementById("output");
 
-    val.addEventListener("keyup", ConTemperature);
-    input.addEventListener("change", ConTemperature);
-    output.addEventListener("change", ConTemperature);
+    val.addEventListener("keyup", TEMPCON);
+    input.addEventListener("change", TEMPCON);
+    output.addEventListener("change", TEMPCON);
 
     let inputValue = input.value;
     let outputValue = output.value;
@@ -47,5 +47,5 @@ function ConTemperature(){
   }
 
   function reset(){
-  ConTemperature();
+  TEMPCON();
   }
